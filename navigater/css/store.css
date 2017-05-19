@@ -1,0 +1,96 @@
+.sort-top{
+    box-shadow: 0px 0px 4px #d4d3d3;
+    margin-bottom: 28px;
+    overflow: hidden;
+}
+.containers {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+}
+.keysbox {
+    background: #FFFFFF;
+    font-size: 16px;
+    color: #303030;
+    padding: 0 24px;
+    overflow: hidden;
+}
+.keysbox .keys {
+    padding: 10px 0;
+}
+.keys a.active {
+    color: #0db252;
+    border-bottom: 2px solid #0db252;
+}
+.keys a {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: border-box;
+    margin: 2px 24px 2px 0;
+}
+
+.filterbox {
+    padding: 10px 25px;
+    background: #f8f8f8;
+    margin-top: 20px;
+}
+.filterLeft{float: left}
+.filterLeft a {
+    float: left;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #E5E5E5;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 12px;
+    position: relative;
+    cursor: pointer;
+}
+.filterLeft a.active {
+    border: 1px solid #0db252;
+    color: #0db252;
+}
+.filterLeft a.active label {
+    background-position: -337px -52px;
+    background-image: url('../imgs/basic/lite.png');
+}
+
+.filterLeft a label {
+    width: 14px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.filterRight {
+    float: right;
+    margin-top: 5px;
+}
+.filterRight a.active {
+    color: #0db252;
+}
+.filterRight a {
+    font-size: 16px;
+    float: left;
+}
+
+.filterRight label {
+    float: left;
+    width: 2px;
+    height: 20px;
+    background: #787878;
+    margin: 3px 20px 0 20px;
+}
+
+.common-detail{
+    width: 1080px;height: auto;overflow: hidden;
+    margin:0 auto;
+    padding: 10px 0 0 5px;
+}

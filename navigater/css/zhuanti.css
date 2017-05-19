@@ -1,0 +1,83 @@
+.common-detail{
+    width: 1080px;height: auto;overflow: hidden;
+    margin:0 auto;
+    padding: 10px 0 0 5px;
+}
+
+.subject {
+    width: 250px;
+    height: 414px;
+    box-shadow: 0px 0px 4px #d4d3d3;
+    float: left;
+    margin-right: 26px;
+    margin-bottom: 26px;
+}
+.subject:nth-child(4n) {
+    margin-right: 0;
+    width: 250px;
+}
+.subject:hover {
+    box-shadow: 0 0 16px #ababab;
+}
+.sub-img {
+    height: 120px;
+    overflow: hidden;
+    display: block;
+}
+.subject-tip {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 0 14px;
+}
+.img-new {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 4px;
+    float: left;
+    /*margin: 10px 0 10px 10px;*/
+}
+
+ .list-new >a {
+    border-bottom: 1px solid #F4F4F4;
+    padding: 10px;
+    display: block;
+}
+.list-new >a:hover{
+    background-color: #f9f9f9;
+}
+.data-new {
+    width: 164px;
+    font-size: 16px;
+    float: left;
+    margin-left: 15px;
+    color: #505050;
+}
+.data-new2 {
+    width: 160px;
+    font-size: 16px;
+    float: left;
+    margin: 0px 0 0px 15px;color: #505050;
+}
+
+.list-new p {
+    color: #808080;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 6px;
+    float: left;
+}
+
+.goBtn a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #808080;
+    text-align: center;
+}
+.goBtn a:hover {
+    color: #0db252
+}

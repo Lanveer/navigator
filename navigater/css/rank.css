@@ -1,0 +1,231 @@
+.banner{
+    width: 100%;height:auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner>img{
+    height: 100%;
+    height: auto;
+    top: 0;
+    z-index: 997;
+}
+
+.title_common {
+    padding: 18px 0;
+    font-size: 14px;
+    color: #808080;
+}
+.containers {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.title_common a {
+    color: #303030;
+    display: inline-block;
+    font-size: 14px;
+}
+.title_common label {
+    display: inline-block;
+    width: 6px;
+    height: 12px;
+    background-position: -79px 0;
+    vertical-align: middle;
+    margin: -2px 8px 0 8px;
+    background-image: url('../imgs/basic/lite.png');
+}
+
+.rank{text-align: center}
+.rank a.active {
+    color: #0db252;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    display: inline-block;
+    padding: 0 26px;
+}
+.top-wrapper{
+    width: 1080px;height: auto;overflow: hidden;
+    margin: 20pt auto 0;
+    padding: 10pt 0 10pt 5pt;
+}
+.rankHot >a {
+    float: left;
+    width: 340px;
+    box-shadow: 0px 0px 4px #d4d3d3;
+    padding: 30px 18px 14px 18px;
+    box-sizing: border-box;
+    margin-right: 29px;
+    position: relative;
+}
+
+.rankHot >a:hover {
+    box-shadow: 0 0 16px #ababab;
+}
+
+.rankHot >a:last-of-type {
+    margin-right: 0;
+}
+
+.rankHot .rankIcon {
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    background-position: -616px 0;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    z-index: 99;
+    background-image: url('../imgs/basic/lite.png');
+}
+.rankHot a .qrcode {
+    top: 120px;
+}
+
+.show-content .list .qrcode, .rankHot .qrcode, .code-table .qrcode {
+    width: 160px;
+    overflow: hidden;
+    background: #FFFFFF;
+    box-shadow: 0 0 4px #d6d6d6;
+    text-align: center;
+    font-size: 14px;
+    color: #303030;
+    position: absolute;
+    right: 19px;
+    top: 54px;
+    z-index: 99;
+    display: none;
+    padding-bottom: 10px;
+}
+.qrcode img {
+    width: 132px;
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+.rankHot .order {
+    color: #e30000;
+    font-size: 18px;
+    float: left;
+    width: 18px;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 22px;
+}
+.img-rank {
+    width: 68px;
+    height: 68px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin-left: 15px;
+}
+.data-rank {
+    width: 190px;
+    margin-left: 12px;
+    font-size: 14px;
+    color: #808080;
+    float: left;
+}
+.data-rank h2 {
+    color: #303030;
+    font-size: 18px;
+}
+.data-rank>p {
+    margin: 4px 0;
+
+}
+.data-rank .try {
+    width: 48px;
+    height: 22px;
+    color: #404040;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    margin-top: 8px;
+    float: right;
+}
+.table{
+    width: 1080px;height: auto;overflow: hidden;margin: auto;
+
+}
+.rankTable {
+    width: 99%;
+    margin: auto;
+    border: none;
+    box-shadow: 0px -1px 3px #e2e1e1;
+    margin-top: 16px;
+    border-spacing: 0;
+    /*border: 1px solid red;*/
+}
+.rankTable tr {
+    height: 80px;   border-top: none;
+}
+.rankTable th {
+    font-size: 18px;
+    color: #303030;
+    font-weight: normal;
+    line-height: 24px;
+    margin-top: 20px;
+    width: 16.667%;
+
+}
+
+tbody>tr>td{
+    text-align: center;
+    font-size: 18px;
+    color: #303030;
+}
+
+.rank-imgs>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/*.show-erweima{position: relative}*/
+.show-erweima>span{
+    width: 28px;
+    height: 28px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    position: relative;
+    background-position: -820px -28px;
+    background-image: url('../imgs/basic/lite.png');
+}
+
+
+.show-erweima>span:hover{
+    background-position: -820px 0px;
+}
+
+.hide-erweima{
+    width: 160px;
+    height: 170px;
+    box-shadow: 0 0 4px #d6d6d6;
+    text-align: center;
+    font-size: 14px;
+    color: #303030;
+    position: absolute;
+    background-color: #fff;
+    z-index:8;
+    display: none;
+}
+.hide-erweima>img{
+    width: 120px;height: 120px;
+    margin: 20px 20px 5px 20px;
+}
+.hide-erweima>p{
+    font-size: 14px;text-align: center;color: #333;
+}
+.more{
+    text-align: center;
+    margin: 15pt 0 45pt 0;
+    cursor: pointer;
+}
+.more>a{color: #333}
+.more>a:hover{color: #0db252}

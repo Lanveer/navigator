@@ -1,0 +1,344 @@
+*{margin: 0;padding: 0;}
+html{font-size:87.5%;font-family: "microsoft yahei"}
+a{text-decoration: none}
+img{
+    border: 0;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.title_common {
+    padding: 18px 0;
+    font-size: 14px;
+    color: #808080;
+}
+.title_common a {
+    color: #303030;
+    display: inline-block;
+    font-size: 14px;
+}
+.title_common label {
+    display: inline-block;
+    width: 6px;
+    height: 12px;
+    background-position: -79px 0;
+    vertical-align: middle;
+    margin: -2px 8px 0 8px;
+    background-image: url('../imgs/basic/lite.png');
+}
+
+.containers {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+}
+.clear:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.container{
+    min-height: 100%;
+    height: auto !important;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 80px;
+}
+.header{
+    width:100%;
+    height:80px;
+    box-shadow: 1px 1px 4px #dadada;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.logo{
+    width: 20.13177%;height: 75px;
+    background-color: green;float: left;
+    position: absolute;
+    left: 10.2489%;top: 2px;
+}
+
+.menu{
+    width: 32.9428%;height: 80px;overflow: hidden;float: left;
+    position:absolute;left: 50%;margin-left:-16.47144%;
+}
+.menu>ul{width: 98%;margin: auto;}
+.menu>ul>li{
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;;
+    margin-top: 20px;
+    color: #282828;
+    padding-bottom: 15px;
+}
+.menu>ul>li:hover{
+    border-bottom: 2px solid #0db252;
+}
+.menu>ul>li>a:hover{ color: #0db252;}
+.menu>ul>li>a{
+    font-size: 18px;
+    color: #282828;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 0 15px 0 15px;
+
+}
+
+
+
+.search{
+    width: 21.2298%;height: 35px;
+    float: right;
+    position: absolute;
+    right: 10.4685% ; top: 22px;
+}
+
+.search>input{
+    width: 100%;height: 100%;border: 1px solid #e5e5e5;
+    border-radius: 3px;outline: none;
+}
+.search>input::-webkit-input-placeholder{padding-left: 3%;font-family: "microsoft yahei"}
+
+/*footer 开始*/
+.foot {
+    background: #f4f4f4;
+    left:0;
+    bottom:0;
+    width:100%;height: auto;
+    padding:16px 0 12px 0;
+    line-height: 22px;
+    font-size: 14px;
+    color: #909090;
+    text-align: center;
+    overflow: hidden;
+}
+.foot a {
+    color: #303030;
+}
+.foot a:hover {
+    text-decoration: underline;
+}
+.foot div label {
+    display: inline-block;
+    width: 2px;
+    height: 15px;
+    background: #686868;
+    vertical-align: middle;
+    margin: -1px 12px 0 12px;
+}
+.foot div {
+    margin-bottom: 6px;
+}
+/*footer 结束*/
+
+
+
+/*侧边栏固定开始*/
+.fixed_box {
+    width: 63px;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 999;
+    height: 189px;
+}
+
+.fixed_box a:first-of-type {
+    border-top: 1px solid #EEEEEE;
+}
+
+.fixed_box a {
+    display: block;
+    width: 63px;
+    height: 63px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+    line-height: 63px;
+    font-size: 14px;
+    text-align: center;
+}
+.fixed_box a:hover{
+    background-color: #0db252;color: #fff;
+    cursor: pointer;
+}
+.fixed_box .look_telephone {
+    background-position: -85px 0;
+    position: relative;
+}
+
+.fixed_box .to_top {
+    background-position: -211px 0;
+    position: relative;
+    background-image: url('../imgs/basic/lite.png');
+}
+.to_top:hover{
+    background-position: 610px 0
+}
+
+/*侧边栏固定结束*/
+
+
+/*块级共同元素开始*/
+.common-detail>a{
+    width: 340px;
+    height: 180px;
+    padding: 22px 18px;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0px 0px 4px #d4d3d3;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 26px;
+    outline: none;
+}
+.common-detail >a:nth-child(3n) {
+    margin-right: 0;
+}
+.common-detail>a:hover{
+    box-shadow: 0 0 16px #ababab;}
+
+.imgLeft {
+    width: 68px;
+    float: left;
+}
+.imgLeft span {
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.dataRight {
+    width: 224px;
+    float: left;
+    margin-left: 12px;
+    margin-bottom: 27px;
+}
+.dataRight .title h3 {
+    font-size: 16px;
+    color: #303030;
+    float: left;
+    width: 168px;
+}
+
+.dataRight .title span {
+    float: right;
+    width: 48px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #404040;
+    border: 1px solid #f4f4f4;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.dataRight .author {
+    color: #bbbbbb;
+    font-size: 14px;
+    margin-top: 7px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 20px;
+}
+
+.dataRight .introduce {
+    color: #808080;
+    font-size: 14px;
+    margin-top: 5px;
+    display: -webkit-box;
+    display: -moz-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    height: 40px;
+}
+.list-bottom {
+    clear: both;
+}
+
+.list-bottom >label {
+    display: block;
+    font-size: 12px;
+    color: #808080;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    background: #f4f4f4;
+    border-radius: 4px;
+    float: left;
+    margin-right: 12px;
+}
+
+.list-bottom >p {
+    float: right;
+    margin-top: 5px;
+}
+
+.view-count {
+    font-size: 14px;
+    color: #909090;
+}
+.view-count label {
+    display: inline-block;
+    width: 17px;
+    height: 12px;
+    background-position: 0 -20px;
+    margin-right: 8px;
+    background-image: url('../imgs/basic/lite.png');
+}
+.qrcode {
+    width: 160px;
+    overflow: hidden;
+    background: #FFFFFF;
+    box-shadow: 0 0 4px #d6d6d6;
+    text-align: center;
+    font-size: 14px;
+    color: #303030;
+    position: absolute;
+    right: 19px;
+    top: 54px;
+    z-index: 99;
+    display: none;
+    padding-bottom: 10px;
+}
+
+
+
+/*块级共同元素结束*/
+
+
+/*查看更多开始*/
+.lookmore {
+    clear: both;margin-bottom: 50pt;
+}
+.lookmore a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #f4f4f4;
+    text-align: center;color: #303030;
+}
+.lookmore a:hover {
+    color: #0db252;
+}
+
+/*查看更多结束*/
